@@ -1,0 +1,62 @@
+{
+  "id": "workspace",
+  "name": "Inkwell",
+  "version": "0.9.1",
+  "description": "Write it down, draw it out, get it done: notes with images and drawings, tasks, a focus timer, and a calendar.",
+  "store": {
+    "tagline": "Notes, tasks, a focus timer, and a calendar in one calm little workspace.",
+    "description": "Inkwell is a fast, Apple Notes–style personal workspace that keeps your writing, your to-dos, and your days in one quiet place.\n\n• Notes with rich text, images, and drawings — headings, lists, checklists, tables, code blocks, highlights, and note-to-note links. Group them into colour-coded projects, pin the important ones, and find anything with full-text search.\n• Tasks with smart lists (Today, Upcoming, All, Completed), plain-words quick add like “Call Ana fri 18:00 !high #work”, steps, priorities, repeats, and reminders. Turn any checklist line into a task that stays in sync.\n• A Pomodoro focus timer with a gentle bell that rings on time even in a background tab, and counts finished sessions on the task you worked on.\n• A calendar with week, day, and month views, drag-to-create and drag-to-move events, linked notes, attachments, and your dated tasks shown right alongside.\n• A Home screen that pulls today together: recent notes, what’s due, what’s coming up, and your focus time.\n\nDeleted notes are kept for 30 days so nothing disappears by accident.\n\nEverything stays private to you: your notes, tasks, and events live in your own Möbius storage and are never shared unless you choose to.",
+    "hero": null,
+    "screenshots": [
+      {
+        "src": "static/store/home.png",
+        "label": "Home",
+        "alt": "Inkwell's Home screen bringing together recent notes, today's schedule, upcoming tasks, and focus time."
+      },
+      {
+        "src": "static/store/notes.png",
+        "label": "Rich notes",
+        "alt": "A note open in Inkwell's editor with a heading, body text, and a checklist, beside an outline and backlinks panel."
+      },
+      {
+        "src": "static/store/tasks.png",
+        "label": "Tasks",
+        "alt": "Inkwell's Tasks view with smart lists and tasks grouped by day, showing priorities and steps."
+      },
+      {
+        "src": "static/store/calendar.png",
+        "label": "Calendar",
+        "alt": "Inkwell's weekly calendar with colour-coded events and dated tasks laid across the week."
+      }
+    ]
+  },
+  "entry": "index.jsx",
+  "icon": "icon.png",
+  "offline_capable": false,
+  "permissions": {},
+  "source_files": [
+    "editor-dom.js",
+    "media.js",
+    "drawing.js",
+    "DrawPad.jsx",
+    "Attachments.jsx",
+    "sound.js",
+    "notes-model.js",
+    "Logo.jsx",
+    "Home.jsx",
+    "cal-model.js",
+    "CalendarView.jsx",
+    "TimeGrid.jsx",
+    "MonthView.jsx",
+    "EventPeek.jsx",
+    "task-model.js",
+    "TasksView.jsx",
+    "TaskDetail.jsx",
+    "CalTask.jsx",
+    "util.js",
+    "store.js",
+    "EventEditor.jsx",
+    "NoteTools.jsx",
+    "note-export.js"
+  ]
+}
